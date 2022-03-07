@@ -1,11 +1,11 @@
 # Astro + React Example
+# Simple Tic-Tac-Toe game
 
-```
-npm init astro -- --template framework-react
-```
+To run the game:
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/framework-react)
+1. clone the repository.
+2. run ```yarn```
+3. run ``ỳarn start```
+4. visit `` http://127.0.0.1:3000/```
 
 This example showcases Astro working with [React](https://reactjs.org/).
-
-Write your React components as `.jsx` or `.tsx` files in your project.
