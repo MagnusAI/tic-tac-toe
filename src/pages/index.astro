@@ -1,0 +1,36 @@
+---
+// Component Imports
+import Gameboard from '../components/gameboard/Gameboard.tsx';
+
+// Full Astro Component Syntax:
+// https://docs.astro.build/core-concepts/astro-components/
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<style>
+			html,
+			body {
+				background-color: darkcyan;
+				font-family: system-ui;
+				margin: 0;
+				text-align: center;
+			}
+			h1 {
+				color: coral;
+				margin: 0;
+				padding: 16px;
+				font-size: 5vw;
+			}
+		</style>
+	</head>
+	<body>
+		<main>
+			<h1>Tic-tac-toe!</h1>
+			<Gameboard client:visible/>
+		</main>
+	</body>
+</html>

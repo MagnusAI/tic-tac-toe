@@ -1,0 +1,10 @@
+.token {
+  font-size: 150px;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: auto;
+  width: 50%;
+  padding: 12px;
+  text-align: center;
+}
